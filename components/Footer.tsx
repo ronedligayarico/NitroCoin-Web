@@ -11,7 +11,7 @@ const Footer = () => (
   <div>
      <footer>
       <hr />
-      <span>I'm here to stay Footer</span>
+      <span>I'm here to stay Footers</span>
     </footer>
   </div>
 )
