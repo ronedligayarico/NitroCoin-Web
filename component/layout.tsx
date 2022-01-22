@@ -7,7 +7,7 @@ const Layouts = ({ children }) => {
         <>
        <Head>
          <title>Nitro Coin</title>
-         <link rel="icon" href="/favicon.ico" />
+         <link rel="icon" href="/nitro.ico" />
          <meta name="description" content="Nitro Coin"/>
          <meta property="og:title" content="Nitro Coin"/>
          <meta property="og:description" content="Nitro Coin"/>
