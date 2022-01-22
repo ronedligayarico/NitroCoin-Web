@@ -1,13 +1,15 @@
 import Layouts from '../component/layout'
+import SectionOne from '../component/sectionone'
 
 const Home = () => {
   return (
     <>
      <Layouts>
-       <div className="h-96 py-16">
-        henlo
+       <div className="main-div">
+         <SectionOne></SectionOne>
        </div>
-     </Layouts>
+
+    </Layouts>
     </>
   )
 }

@@ -19,7 +19,7 @@ const Layouts = ({ children }) => {
          <meta property="og:locale" content="en-US" />
        </Head>
         <Navigation></Navigation>
-           <main className="xl:mt-24 lg:mt-32 mt-24 main-bg">{children}</main>
+           <main className="xl:mt-24 lg:mt-32 mt-24 main-bg bg-color">{children}</main>
         <Footer></Footer>
         </>
     )
