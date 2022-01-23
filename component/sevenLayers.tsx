@@ -37,20 +37,22 @@ const sevenLayers = () => {
               1
             </div>
             <div  className="w-6/12 text-left">
-              <h3 className="text-2xl mb-8">The seven layers of the Metaverse</h3>
-              {
-                sevenLayer.map((element,key) => {
-                  return (
-                    <div key={key} className="flex flex-row gap-4 mb-4">
-                      <span className="mr-4">icon me</span>
-                      <div className="flex flex-col">
-                        <span>{ element.name }</span>
-                        <span className="opacity-70">{ element.desc }</span>
-                      </div>
-                    </div>
-                  )
-                })
-              }
+                <div className="w-9/12 mx-auto">
+                    <h3 className="text-2xl mb-8">The seven layers of the Metaverse</h3>
+                    {
+                        sevenLayer.map((element,key) => {
+                        return (
+                            <div key={key} className="flex flex-row gap-4 mb-4">
+                            <span className="mr-4">icon me</span>
+                            <div className="flex flex-col">
+                                <span>{ element.name }</span>
+                                <span className="opacity-70">{ element.desc }</span>
+                            </div>
+                            </div>
+                        )
+                        })
+                    }
+                </div>
             </div>
           </div>
   );
