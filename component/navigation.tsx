@@ -59,13 +59,6 @@ const Navigation = () => {
                      </Link>
                 </div>
                 <ul className="list-none flex items-center xl:space-x-6 lg:space-x-4">
-                    <li className="inline-block md:mr-2 mr-8">
-                       {/* <span className="font-bold">Nitro Coin Logo</span>  */}
-                       <img src="/nitro.ico"  alt="" className="nav-icon"/>
-                    </li>
-                    <li className="inline-block md:mr-3 mr-8 text-center">
-                       <span className="font-bold">|</span> 
-                    </li>
                     {
                         links.map((element,key) => {
                             return (

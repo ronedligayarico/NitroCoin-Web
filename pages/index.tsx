@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <>
      <Layouts>
-
+       <section id="home" className="container mx-auto mb-32">
         <Sectionone/>
-        
+       </section>
        <section id="metaverse" className="container mx-auto mb-32">
           <Metaverse/>
        </section>
