@@ -9,12 +9,31 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Quicksand', sans-serif;
+  background-color: #07071C;
+  /* background-color: #20233B; */
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 .main-bg{
   text-align: center;
   /* background-color: #20233B; */
+
+  background-color: #07071C;
+}
+.custom-buy-now{
+  background-color: #684701;
+  border: 1px solid #684701;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.custom-buy-now:hover{
+  box-shadow: 0 15px 56px 0 rgb(104 71 1 / 60%);
+}
+.b-shadow{
+  box-shadow: 0 15px 56px 0 rgb(104 71 1 / 60%);
+}
+.box-custom{
+  background-color: #0E0E22;
 }
 a {
   color: inherit;
@@ -22,5 +41,6 @@ a {
 }
 
 * {
+  color: #fff;
   box-sizing: border-box;
 }

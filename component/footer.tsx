@@ -3,9 +3,10 @@ const Footer = () => {
  
     return (
         <>
-            <footer className="border-t-2">
+            <footer>
                 <div className="text-center p-8">
-                    All rights reserved &copy;Nitro Coin
+                    Copyright © 2022 Nitro Coin <br/>
+                    All rights reserved  |  Privacy
                 </div>
             </footer>
         </>

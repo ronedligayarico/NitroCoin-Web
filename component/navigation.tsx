@@ -1,12 +1,16 @@
 import React from 'react';
+import Link from 'next/link'
+import Image from 'next/image'
+import Logo from '../public/images/nitro-coin.png'
+
 
 const Navigation = () => {
     const links = [
-        "Menu 1",
-        "Menu 2",
-        "Menu 3",
-        "Menu 4",
-        "Menu 5"
+        "Home",
+        "Metaverse",
+        "NFT",
+        "NFT Marketplace",
+        "Land"
     ]
 
   return (
@@ -27,7 +31,7 @@ const Navigation = () => {
       >
         <div className="
             container
-            p-8
+            p-4
             flex flex-wrap flex-row
             items-center
             justify-between
@@ -36,14 +40,21 @@ const Navigation = () => {
             
             "
         >
-            <div className="relative lg:flexs flex lg:items-centers items-center ">
+            <div className="relative lg:flexs flex lg:items-centers items-center justify-between w-full ">
+                <div>
+                    <Link href="/"> 
+                        <a>
+                            <Image
+                                src={Logo}
+                                alt="Logo"
+                                width={90}
+                                height={75}
+                                unoptimized={true}
+                            />
+                        </a>
+                     </Link>
+                </div>
                 <ul className="list-none flex items-center xl:space-x-6 lg:space-x-4">
-                    <li className="inline-block md:mr-2 mr-8">
-                       <span className="font-bold">Nitro Coin Logo</span> 
-                    </li>
-                    <li className="inline-block md:mr-3 mr-8 text-center">
-                       <span className="font-bold">|</span> 
-                    </li>
                     {
                         links.map((element,key) => {
                             return (
@@ -55,6 +66,7 @@ const Navigation = () => {
                             )
                         })
                     }
+                    <button className="px-4  py-2  rounded-full text-white lg:inline-block md:inline-block hidden transition-all duration-300 custom-buy-now">Buy now</button>
                 </ul>
             </div>
         </div>
