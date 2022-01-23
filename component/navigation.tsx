@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../public/images/nitro-coin.png'
@@ -12,6 +12,9 @@ const Navigation = () => {
         "NFT Marketplace",
         "Land"
     ]
+    const scrollToElement = (toFind: String) => {
+        window.scrollTo({ top: window.scrollY + document.querySelector(`#${toFind.toLowerCase()}`).getBoundingClientRect().top - 120, behavior: 'smooth' })
+    }
 
   return (
    <>
@@ -68,7 +71,8 @@ const Navigation = () => {
                             return (
                                 <li 
                                 key={key} 
-                                className="text-amber-50 cursor-pointer lg:inline-block md:inline-block hidden md:mr-3 mr-8 border-b-2 border-transparent hover:border-black transition-all ease-in duration-300">
+                                onClick={() => scrollToElement(element)}
+                                className="cursor-pointer lg:inline-block md:inline-block hidden md:mr-3 mr-8 border-b-2 border-transparent hover:border-black transition-all ease-in duration-300">
                                     { element }
                                 </li>
                             )
