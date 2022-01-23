@@ -1,7 +1,11 @@
 import Layouts from '../component/layout'
 import Metaverse from '../component/metaverse';
+import SevenLayers from '../component/sevenLayers';
+import NFT from '../component/nft';
+
 
 const Home = () => {
+  
   return (
     <>
      <Layouts>
@@ -12,14 +16,10 @@ const Home = () => {
           <Metaverse/>
        </section>
        <section id="7layersmetaverse" className="container mx-auto mb-32">
-          <div className="flex justify-between">
-            <div className="w-6/12">
-              1
-            </div>
-            <div  className="w-6/12 text-left">
-              <h5>The seven layers of the Metaverse</h5>
-            </div>
-          </div>
+          <SevenLayers/>
+       </section>
+       <section id="nft" className="container mx-auto mb-32">
+          <NFT/>
        </section>
      </Layouts>
     </>
