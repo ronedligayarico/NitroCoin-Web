@@ -17,6 +17,7 @@ const Layouts = ({ children }) => {
          {/* <meta property="og:image:secure" content="/PayAfter-Original.png" /> */}
          <meta property="fb:app_id" content="215115970434283" />
          <meta property="og:locale" content="en-US" />
+         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"></script>
        </Head>
         <Navigation></Navigation>
            <main className="xl:mt-24 lg:mt-32 mt-24 main-bg bg-color">{children}</main>
