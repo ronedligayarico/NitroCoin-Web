@@ -10,7 +10,7 @@ const Footer = () => {
 
             <footer>
 
-                <div className="rounded-social-buttons">
+                <div className="rounded-social-buttons gap-4 flex flex-row justify-center">
                 <SocialIcon url="https://facebook.com" />
                 <SocialIcon url="https://twitter.com" />
                 <SocialIcon url="https://instagram.com" />
@@ -24,8 +24,6 @@ const Footer = () => {
                 </div>
 
 
-
-                
                 <div className="text-center p-8">
                     Copyright © 2022 Nitro Coin <br/>
                     All rights reserved  |  Privacy
