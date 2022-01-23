@@ -23,6 +23,7 @@ const Navigation = () => {
           z-20
           top-0
           shadow-sm
+          bg-color
         "
       >
         <div className="
@@ -50,7 +51,7 @@ const Navigation = () => {
                             return (
                                 <li 
                                 key={key} 
-                                className="cursor-pointer lg:inline-block md:inline-block hidden md:mr-3 mr-8 border-b-2 border-transparent hover:border-black transition-all ease-in duration-300">
+                                className="text-amber-50 cursor-pointer lg:inline-block md:inline-block hidden md:mr-3 mr-8 border-b-2 border-transparent hover:border-black transition-all ease-in duration-300">
                                     { element }
                                 </li>
                             )
