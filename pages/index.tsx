@@ -5,7 +5,8 @@ import NFT from '../component/nft';
 
 
 const Home = () => {
-  
+ 
+
   return (
     <>
      <Layouts>

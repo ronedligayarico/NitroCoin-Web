@@ -39,9 +39,9 @@ const sevenLayers = () => {
             <div  className="w-6/12 text-left">
               <h3 className="text-2xl mb-8">The seven layers of the Metaverse</h3>
               {
-                sevenLayer.map(element => {
+                sevenLayer.map((element,key) => {
                   return (
-                    <div className="flex flex-row gap-4 mb-4">
+                    <div key={key} className="flex flex-row gap-4 mb-4">
                       <span className="mr-4">icon me</span>
                       <div className="flex flex-col">
                         <span>{ element.name }</span>
