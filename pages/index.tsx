@@ -1,18 +1,16 @@
 import Layouts from '../component/layout'
-import SectionOne from '../component/sectionone'
+import Sectionone from '../component/sectionOne'
 import Metaverse from '../component/metaverse';
 import SevenLayers from '../component/sevenLayers';
 import NFT from '../component/nft';
 
 
 const Home = () => {
- 
-
   return (
     <>
      <Layouts>
 
-        <SectionOne/>
+        <Sectionone/>
         
        <section id="metaverse" className="container mx-auto mb-32">
           <Metaverse/>
