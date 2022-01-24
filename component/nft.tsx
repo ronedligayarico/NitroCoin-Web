@@ -2,8 +2,8 @@ import React from 'react';
 
 const nft = () => {
   return (
-    <div className="flex items-center justify-between gap-8 mb-32">
-        <div className="w-6/12 text-left">
+    <div className="flex lg:flex-row flex-col items-center justify-between gap-8 mb-32">
+        <div className="lg:w-6/12 w-9/12  text-left">
             <div className="w-9/12 mx-auto">
             <h3 className="text-4xl mb-8">NFTs</h3>
             <p>

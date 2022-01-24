@@ -23,6 +23,10 @@ body {
   padding-top: 15rem;
   background-color: #07071c;
 }
+.home-banner{
+  background: url('../public/images/banner-min.jpg') no-repeat center center;
+  background-size: cover;
+}
 .custom-buy-now {
   background-color: #684701;
   border: 1px solid #684701;
@@ -47,7 +51,10 @@ a {
   color: #fff;
   box-sizing: border-box;
 }
-
+/* #home{
+  background: url('../public/images/banner.jpg') no-repeat center center;
+  background-size: cover;
+} */
 .bg-color {
   /* background-image: linear-gradient(to right, #150728, #210b3a, #1d0e2a); */
 }
@@ -63,7 +70,7 @@ a {
   height: 50px;
 }
 .font-logo {
-  font-size: 100px;
+  /* font-size: 100px; */
   font-weight: 900;
   letter-spacing: 2rem;
   font-family: sans-serif;
@@ -98,7 +105,7 @@ a {
 @media only screen and (max-width: 480px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
   .font-logo {
-    font-size: 30px;
+    /* font-size: 30px; */
     font-weight: 900;
     letter-spacing: 1rem;
   }
