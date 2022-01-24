@@ -125,4 +125,8 @@ a {
   /* For landscape layouts only */
 }
 
-/* Style for Social Media Logo */
+/* Style for seven layer icon */
+.seven-icon {
+  height: 50px;
+  width: 50px;
+}
