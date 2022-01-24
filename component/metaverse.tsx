@@ -4,8 +4,8 @@ const metaverse = () => {
   return (
       <>
          <div className="text-center w-full mb-4">
-            <h2 className="lg:text-6xl text-lg tracking-widest uppercase">Metaverse</h2>
-            <p className="p w-1/2 mx-auto mt-4 opacity-70">Simply put, the metaverse is a virtual reality world where users can interact, game and experience things as they would in the real world. Using current AR and VR tech, they can immerse into this world and interact with overlaying objects and people in the visual projected in front of them.</p>
+            <h2 className="lg:text-6xl text-4xl tracking-widest uppercase">Metaverse</h2>
+            <p className="p lg:w-1/2 w-9/12 mx-auto mt-4 opacity-70">Simply put, the metaverse is a virtual reality world where users can interact, game and experience things as they would in the real world. Using current AR and VR tech, they can immerse into this world and interact with overlaying objects and people in the visual projected in front of them.</p>
           </div>
           <br />
           <h1>4 Easy Ways To Invest In Metaverse.</h1>
