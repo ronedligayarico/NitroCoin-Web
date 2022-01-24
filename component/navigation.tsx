@@ -83,7 +83,7 @@ const Navigation = () => {
                             )
                         })
                     }
-                    <button className="px-4  py-2  rounded-full text-white lg:inline-block md:inline-block hidden transition-all duration-300 custom-buy-now">Buy now</button>
+                    <button className="px-4  py-2  rounded-full text-white lg:inline-block md:inline-block hidden transition-all duration-300 custom-buy-now" onClick={() => window.open("https://pancakeswap.finance/swap",'_blank')} >Buy now</button>
                 </ul>
             </div>
             <div className="lg:space-x-6 space-x-1">
