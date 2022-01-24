@@ -23,8 +23,8 @@ body {
   padding-top: 15rem;
   background-color: #07071c;
 }
-.home-banner{
-  background: url('../public/images/banner-min.jpg') no-repeat center center;
+.home-banner {
+  background: url("../public/images/banner-min.jpg") no-repeat center center;
   background-size: cover;
 }
 .custom-buy-now {
