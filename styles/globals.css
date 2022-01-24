@@ -24,17 +24,20 @@ body {
   background-color: #07071c;
 }
 .home-banner{
-  background: url('../public/images/banner-min.jpg') no-repeat center center;
+  background: url('../public/images/faded.png') no-repeat center center;
   background-size: cover;
 }
 .custom-buy-now {
-  background-color: #684701;
-  border: 1px solid #684701;
+  /* background-color: #684701;
+  border: 1px solid #684701; */
+  border: 1px solid #fff;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
 .custom-buy-now:hover {
-  box-shadow: 0 15px 56px 0 rgb(104 71 1 / 60%);
+  /* box-shadow: 0 15px 56px 0 rgb(104 71 1 / 60%); */
+  box-shadow: 0 2px 15px 0 rgb(128 128 128 / 60%);
+
 }
 .b-shadow {
   box-shadow: 0 15px 56px 0 rgb(104 71 1 / 60%);
