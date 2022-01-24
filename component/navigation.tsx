@@ -16,11 +16,18 @@ const Navigation = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
 
     const scrollToElement = (toFind: String) => {
-        window.scrollTo({ 
-            top: window.scrollY + document.querySelector(`#${toFind.toLowerCase()}`).getBoundingClientRect().top - 120, 
-            behavior: 'smooth' 
-        })
-        setMobileOpen((prev)=> !prev);
+        if(toFind == 'NFT Marketplace' || toFind == 'Land' ){
+            window.scrollTo({ 
+                top: window.scrollY + document.querySelector(`#commingsoon`).getBoundingClientRect().top - 120, 
+                behavior: 'smooth' 
+            })
+        }else{
+            window.scrollTo({ 
+                top: window.scrollY + document.querySelector(`#${toFind.toLowerCase()}`).getBoundingClientRect().top - 120, 
+                behavior: 'smooth' 
+            })
+        }
+        setMobileOpen(false);
     }
 
   return (
@@ -52,7 +59,7 @@ const Navigation = () => {
             <div className="relative lg:flexs flex lg:items-centers items-center justify-between lg:w-full ">
                 <div>
                     <Link href="/"> 
-                        <a>
+                        <a className="flex">
                             <Image 
                               src={Logo}
                               alt="Logo"
@@ -76,7 +83,7 @@ const Navigation = () => {
                             )
                         })
                     }
-                    <button className="px-4  py-2  rounded-full text-white lg:inline-block md:inline-block hidden transition-all duration-300 custom-buy-now">Buy now</button>
+                    <button className="px-4  py-2  rounded-full text-white lg:inline-block md:inline-block hidden transition-all duration-300 custom-buy-now" onClick={() => window.open("https://pancakeswap.finance/swap",'_blank')} >Buy now</button>
                 </ul>
             </div>
             <div className="lg:space-x-6 space-x-1">
@@ -98,7 +105,7 @@ const Navigation = () => {
                                 src={Logo}
                                 alt="Logo"
                                 width="95"
-                                height="30"
+                                height="28"
                                 unoptimized={true}
                             />
                         </a>
