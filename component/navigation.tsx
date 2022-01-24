@@ -20,6 +20,7 @@ const Navigation = () => {
             top: window.scrollY + document.querySelector(`#${toFind.toLowerCase()}`).getBoundingClientRect().top - 120, 
             behavior: 'smooth' 
         })
+        setMobileOpen((prev)=> !prev);
     }
 
   return (
