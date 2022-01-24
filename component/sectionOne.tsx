@@ -1,4 +1,6 @@
 import React from 'react';
+import Logo from '../public/images/nitro.png'
+import Image from 'next/image'
 
 const sectionOne = () => {
   return (

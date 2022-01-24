@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '../public/images/nitro-coin.png'
+import Logo from '../public/images/nitro.png'
 
 
 const Navigation = () => {
