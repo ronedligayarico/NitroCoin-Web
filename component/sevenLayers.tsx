@@ -32,13 +32,13 @@ const sevenLayers = () => {
     },
     ]
   return (
-        <div className="flex items-center justify-between gap-8 mb-32">
-            <div className="w-6/12">
+        <div className="flex lg:flex-row flex-col items-center justify-between gap-8 mb-32">
+            <div className="lg:w-6/12 w-9/12">
               1
             </div>
-            <div  className="w-6/12 text-left">
-                <div className="w-9/12 mx-auto">
-                    <h3 className="text-2xl mb-8">The seven layers of the Metaverse</h3>
+            <div  className="lg:w-6/12 w-9/12 text-left">
+                <div className="lg:w-9/12 w-full mx-auto">
+                    <h3 className="text-2xl mb-8 lg:text-left text-center">The seven layers of the Metaverse</h3>
                     {
                         sevenLayer.map((element,key) => {
                         return (
@@ -54,7 +54,7 @@ const sevenLayers = () => {
                     }
                 </div>
             </div>
-          </div>
+        </div>
   );
 };
 
