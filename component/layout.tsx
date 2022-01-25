@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Footer from "./footer"
 import Navigation from "./navigation"
+import { AnimatePresence } from 'framer-motion'
 
 const Layouts = ({ children }) => {
     return (
@@ -19,7 +20,13 @@ const Layouts = ({ children }) => {
          <meta property="og:locale" content="en-US" />
        </Head>
         <Navigation></Navigation>
+        <AnimatePresence
+                exitBeforeEnter
+                initial={false}
+                onExitComplete={() => window.scrollTo(0, 0)}
+            >
            <main className="main-bg bg-color">{children}</main>
+        </AnimatePresence>
         <Footer></Footer>
         </>
     )
