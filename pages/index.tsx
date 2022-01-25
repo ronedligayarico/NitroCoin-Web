@@ -10,7 +10,7 @@ const Home = () => {
     <>
      <Layouts>
        <section className="home-banner">
-        <section id="home" className="container mx-auto mb-32 min-h-screen flex flex-col items-center justify-center">
+        <section id="home" className="container mx-auto mb-32 min-h-screen flex flex-col justify-center">
           <Sectionone/>
         </section>
        </section>

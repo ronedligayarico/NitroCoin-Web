@@ -125,7 +125,7 @@ const Navigation = () => {
                         )
                     })
                 }
-                <button className="px-4  py-2  rounded-full text-white transition-all duration-300 custom-buy-now">Buy now</button>
+                <button className="px-4  py-2  rounded-full text-white transition-all duration-300 custom-buy-now">Contact us</button>
             </ul>
             <button
                 className="
