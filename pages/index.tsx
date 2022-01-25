@@ -24,7 +24,7 @@ const Home = () => {
           <NFT/>
        </section>
        <section id="commingsoon" className="container mx-auto mb-32">
-         <h2 className="lg:text-6xl text-4xl tracking-widest uppercase"> Comming Soon</h2>
+         <h2 className="lg:text-6xl text-4xl tracking-widest uppercase"> Coming Soon</h2>
        </section>
      </Layouts>
     </>
