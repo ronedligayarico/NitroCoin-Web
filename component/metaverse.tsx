@@ -20,19 +20,20 @@ const metaverse = () => {
           <br />
           <h1>4 Easy Ways To Invest In Metaverse.</h1>
           <div className="flex lg:space-x-4 mt-12  lg:flex-row flex-col">
-            <div className="lg:w-6/12 w-9/12 box-custom lg:mb-0 mb-12 mx-auto h-48 flex flex-col items-center justify-center">
-            <div className="w-40 h-40 block relative -mt-12">
+            <div className="lg:w-6/12 w-9/12 box-custom lg:mb-0 mb-12 mx-auto h-60 flex flex-col items-center justify-center">
+            <div className="w-40 h-40 block relative box-1">
                   <Image 
                     src={meta}
                     alt="Logo"
                     layout="fill"
+                    className="z-50"
                     unoptimized={true}
                   />
               </div>
               <h1>Metaverse NFTs</h1>
             </div>
-            <div className="lg:w-6/12 w-9/12  box-custom mx-auto lg:mb-0 mb-12 h-48 flex flex-col items-center justify-center">
-              <div className="w-40 h-40 block relative -mt-12">
+            <div className="lg:w-6/12 w-9/12  box-custom mx-auto lg:mb-0 mb-12  h-60 flex flex-col items-center justify-center">
+              <div className="w-40 h-40 block relative  box-2">
                    <Image 
                     src={land}
                     alt="Logo"
@@ -42,8 +43,8 @@ const metaverse = () => {
               </div>
               <h1>Buy Virtual Lands</h1>
             </div>
-            <div className="lg:w-6/12 w-9/12 box-custom mx-auto lg:mb-0 mb-12 h-48 flex flex-col items-center justify-center">
-              <div className="w-40 h-40 block relative -mt-12">
+            <div className="lg:w-6/12 w-9/12 box-custom mx-auto lg:mb-0 mb-12  h-60 flex flex-col items-center justify-center">
+              <div className="w-40 h-40 block relative  box-3">
                    <Image 
                     src={token}
                     alt="Logo"
@@ -53,8 +54,8 @@ const metaverse = () => {
               </div>
               <h1>Metaverse Tokens</h1>
             </div>
-            <div className="lg:w-6/12 w-9/12 box-custom mx-auto lg:mb-0 mb-12 h-48 flex flex-col items-center justify-center">
-              <div className="w-40 h-40 block relative -mt-12">
+            <div className="lg:w-6/12 w-9/12 box-custom mx-auto lg:mb-0 mb-12  h-60 flex flex-col items-center justify-center">
+              <div className="w-40 h-40 block relative  box-4">
                    <Image 
                     src={stocks}
                     alt="Logo"
