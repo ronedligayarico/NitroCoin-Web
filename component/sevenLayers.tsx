@@ -7,6 +7,7 @@ import Decentralization from '../public/images/decentralization.png'
 import Discovery from '../public/images/discovery.png'
 import Human from '../public/images/human.png'
 import Infra from '../public/images/infra.png'
+import stocks from '../public/images/7layers.jpg'
 
 const sevenLayers = () => {
     const sevenLayer = [
@@ -48,8 +49,13 @@ const sevenLayers = () => {
     ]
   return (
         <div className="flex lg:flex-row flex-col items-center justify-between gap-8 mb-32">
-            <div className="lg:w-6/12 w-9/12">
-              1
+            <div className="lg:w-6/12 w-9/12 h-96 block relative -mt-12">
+                   <Image 
+                    src={stocks}
+                    alt="Logo"
+                    layout="fill"
+                    unoptimized={true}
+                  />
             </div>
             <div  className="lg:w-6/12 w-9/12 text-left">
                 <div className="lg:w-9/12 w-full mx-auto">
