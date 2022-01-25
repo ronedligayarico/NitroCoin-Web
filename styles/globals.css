@@ -14,6 +14,9 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
+p {
+  font-size: 18px !important;
+}
 .main-bg {
   text-align: center;
   /* background-color: #20233B; */
@@ -78,6 +81,10 @@ a {
   font-family: sans-serif;
   animation: animate 1s linear infinite;
 }
+.font-sub {
+  letter-spacing: 3rem;
+  animation: animate 1s linear infinite;
+}
 
 @keyframes animate {
   0%,
@@ -110,6 +117,10 @@ a {
     /* font-size: 30px; */
     font-weight: 900;
     letter-spacing: 1rem;
+  }
+  .font-sub {
+    font-weight: 600;
+    letter-spacing: 3rem;
   }
 }
 @media only screen and (device-width: 768px) {
