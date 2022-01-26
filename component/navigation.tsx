@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../public/images/nitro.png'
@@ -16,6 +16,7 @@ const Navigation = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
 
     const scrollToElement = (toFind: String) => {
+        const section = document.querySelector(`#${toFind.toLowerCase()}`)
         if(toFind == 'NFT Marketplace' || toFind == 'Land' ){
             window.scrollTo({ 
                 top: window.scrollY + document.querySelector(`#commingsoon`).getBoundingClientRect().top - 120, 
@@ -23,12 +24,27 @@ const Navigation = () => {
             })
         }else{
             window.scrollTo({ 
-                top: window.scrollY + document.querySelector(`#${toFind.toLowerCase()}`).getBoundingClientRect().top - 120, 
+                top: window.scrollY + section.getBoundingClientRect().top - 120, 
                 behavior: 'smooth' 
             })
+            addRemoveClass(toFind);
         }
         setMobileOpen(false);
     }
+    const addRemoveClass = (toFind) =>{
+        links.forEach((element)=>{
+            const tag = (element == 'NFT Marketplace' || element == 'Land') ? 'commingsoon' : element
+            if(element== toFind){
+                document.querySelector(`#${tag.toLowerCase()}`)?.classList.add('slide-in-bottom');
+            }else{
+                document.querySelector(`#${tag.toLowerCase()}`)?.classList.remove('slide-in-bottom');
+            }
+        })
+    }
+  
+    useEffect(() => {
+      addRemoveClass(links[0]);
+    }, []);
 
   return (
    <>
@@ -77,7 +93,7 @@ const Navigation = () => {
                                 <li 
                                 key={key} 
                                 onClick={() => {scrollToElement(element)}}
-                                className="cursor-pointer lg:inline-block md:inline-block hidden md:mr-3 mr-8 border-b-2 border-transparent hover:border-black transition-all ease-in duration-300">
+                                className="cursor-pointer lg:inline-block md:inline-block hidden md:mr-3 mr-8 border-b-2 border-transparent hover:opacity-70 transition-all ease-in duration-300">
                                     { element }
                                 </li>
                             )

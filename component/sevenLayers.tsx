@@ -49,7 +49,7 @@ const sevenLayers = () => {
     ]
   return (
         <div className="flex lg:flex-row flex-col items-center justify-between gap-8 mb-32">
-            <div className="lg:w-6/12 w-9/12 h-96 block relative -mt-12">
+            <div className="lg:w-6/12 w-9/12 lg:h-96 h-44 block relative -mt-12 box-5">
                    <Image 
                     src={Seven}
                     alt="Logo"
@@ -70,7 +70,7 @@ const sevenLayers = () => {
                                 <span className="opacity-70">{ element.desc }</span>
                             </div>
                             </div>
-                        )
+                            )
                         })
                     }
                 </div>

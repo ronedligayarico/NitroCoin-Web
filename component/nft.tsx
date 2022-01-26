@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image'
-import Nft from '../public/images/NFT.png'
+import Nft from '../public/images/NFT-1.png'
+import { motion } from 'framer-motion';
+
 const nft = () => {
   return (
     <div className="flex lg:flex-row flex-col items-center justify-between gap-8 mb-32">
@@ -12,7 +14,7 @@ const nft = () => {
             </p>
             </div>
         </div>
-        <div  className="w-6/12 ">
+        <div  className="w-6/12 box-6">
              <Image className="font-logo"  src={Nft}alt="Logo" />
         </div>
     </div>
