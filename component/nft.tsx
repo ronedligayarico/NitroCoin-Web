@@ -1,18 +1,11 @@
 import React from 'react';
 import Image from 'next/image'
-import Nft from '../public/images/NFT.png'
+import Nft from '../public/images/NFT-1.png'
 import { motion } from 'framer-motion';
 
 const nft = () => {
   return (
-    <motion.div 
-    layout
-    animate={{ opacity: 0.5 }}
-    transition={{
-      opacity: { ease: "linear" },
-      layout: { duration: 0.3 }
-    }}
-    className="flex lg:flex-row flex-col items-center justify-between gap-8 mb-32">
+    <div className="flex lg:flex-row flex-col items-center justify-between gap-8 mb-32">
         <div className="lg:w-6/12 w-9/12  text-left">
             <div className="w-9/12 mx-auto">
             <h3 className="text-4xl mb-8">NFTs</h3>
@@ -21,10 +14,10 @@ const nft = () => {
             </p>
             </div>
         </div>
-        <div  className="w-6/12 ">
+        <div  className="w-6/12 box-6">
              <Image className="font-logo"  src={Nft}alt="Logo" />
         </div>
-    </motion.div>
+    </div>
   );
 };
 
