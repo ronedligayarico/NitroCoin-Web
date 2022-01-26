@@ -13,12 +13,11 @@ import Image from 'next/image'
 const metaverse = () => {
   return (
       <>
-         <div className="text-center w-full mb-4">
+         <div className="text-center w-full mb-4 my-44">
             <h2 className="lg:text-6xl text-4xl tracking-widest uppercase">Metaverse</h2>
-            <p className="p lg:w-1/2 w-9/12 mx-auto mt-4 opacity-70">Simply put, the metaverse is a virtual reality world where users can interact, game and experience things as they would in the real world. Using current AR and VR tech, they can immerse into this world and interact with overlaying objects and people in the visual projected in front of them.</p>
+            <p className="p lg:w-1/2 w-9/12 mx-auto mt-4 opacity-70 my-44">Simply put, the metaverse is a virtual reality world where users can interact, game and experience things as they would in the real world. Using current AR and VR tech, they can immerse into this world and interact with overlaying objects and people in the visual projected in front of them.</p>
           </div>
-          <br />
-          <h1>4 Easy Ways To Invest In Metaverse.</h1>
+          <h3 className="text-2xl uppercase">4 Easy Ways To Invest In Metaverse</h3>
           <div className="flex lg:space-x-4 mt-12  lg:flex-row flex-col">
             <div className="lg:w-6/12 w-9/12 box-custom lg:mb-0 mb-12 mx-auto h-60 flex flex-col items-center justify-center">
             <div className="w-40 h-40 block relative box-1">

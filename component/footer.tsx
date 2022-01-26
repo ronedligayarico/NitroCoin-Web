@@ -10,15 +10,15 @@ const Footer = () => {
 
             <footer>
 
-                <div className="rounded-social-buttons gap-4 flex flex-row justify-center">
-                <SocialIcon url="https://facebook.com" />
-                <SocialIcon url="https://twitter.com" />
-                <SocialIcon url="https://instagram.com" />
-                <SocialIcon url="https://google.com" />
-                <SocialIcon url="https://telegram.com" />
+                <div className="rounded-social-buttons gap-4 flex flex-row justify-center my-10">
+                <SocialIcon className="saturate-200" url="https://facebook.com" />
+                <SocialIcon className="saturate-200" url="https://twitter.com" />
+                <SocialIcon className="saturate-200" url="https://instagram.com" />
+                <SocialIcon className="saturate-200" url="https://google.com" />
+                <SocialIcon className="saturate-200" url="https://telegram.com" />
                 </div>
 
-
+                <hr />
                 <div className="text-center p-8">
                     Copyright © 2022 Nitro Coin <br/>
                     All rights reserved  |  Privacy
