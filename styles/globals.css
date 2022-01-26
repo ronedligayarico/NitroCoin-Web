@@ -105,6 +105,8 @@ p {
   width: 200px;
   height: 150px;
 }
+
+
 /* .custom-buy-now-hover{
   position: relative;
 }
@@ -182,6 +184,19 @@ a {
   }
   75% {
     text-shadow: -1.5px 1.5px 0 #0ff, -1.5px 1.5px 0 #f00;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box-5::after{
+    top: 15%;
+    left: 10%;
+  
+  }
+  .box-6::after{
+    top: 30%;
+    left: 0%;
+  
   }
 }
 
