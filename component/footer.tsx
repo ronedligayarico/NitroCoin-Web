@@ -10,7 +10,7 @@ const Footer = () => {
 
             <footer>
 
-                <div className="rounded-social-buttons gap-4 flex flex-row justify-center my-10">
+                <div className="rounded-social-buttons gap-4 flex flex-row justify-center">
                 <SocialIcon className="saturate-200" url="https://facebook.com" />
                 <SocialIcon className="saturate-200" url="https://twitter.com" />
                 <SocialIcon className="saturate-200" url="https://instagram.com" />
@@ -18,8 +18,9 @@ const Footer = () => {
                 <SocialIcon className="saturate-200" url="https://telegram.com" />
                 </div>
 
-                <hr />
-                <div className="text-center p-8">
+              
+                <div className="text-center my-20">
+                <hr className="mx-20 my-10"/>
                     Copyright © 2022 Nitro Coin <br/>
                     All rights reserved  |  Privacy
                 </div>

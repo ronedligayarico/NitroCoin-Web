@@ -20,12 +20,12 @@ const Home = () => {
        <section id="7layersmetaverse" className="container mx-auto mb-32">
           <SevenLayers/>
        </section>
-       <section id="nft" className="container mx-auto mb-32">
+       <section id="nft" className="container mx-auto mb-40">
           <NFT/>
        </section>
-       <section id="commingsoon" className="container mx-auto mb-32">
+       {/* <section id="commingsoon" className="container mx-auto mb-32">
          <h2 className="lg:text-6xl text-4xl tracking-widest uppercase"> Coming Soon</h2>
-       </section>
+       </section> */}
      </Layouts>
     </>
   )
