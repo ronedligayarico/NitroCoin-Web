@@ -11,7 +11,7 @@ const sectionOne = () => {
         <h1 className="text-amber-50 font-logo xl:text-9xl text-6xl text-left">NITRO</h1>
         <h2 className="text-amber-50 font-sub text-4xl text-left ml-2">COIN</h2><br />
         <p className="text-amber-50  text-2xl text-left w-3/4 ml-2">Explore the best collections from hand-picked digital artists out there and find your coin.</p>
-        <button className="svg">Get your coin</button>
+        <button className="svg w-60">Get your coin</button>
         {/* <button className="svg">Its free</button> */}
       </div>
     </div>
